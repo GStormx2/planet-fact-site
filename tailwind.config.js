@@ -43,7 +43,8 @@ module.exports = {
       'tab-saturn': '#FCCB6B',
       'tab-uranus': '#65F0D5',
       'tab-neptune': '#497EFA',
-      'cblack': '#070724'
+      'cblack': '#070724',
+      'cwhite': '#FFFFFF'
     },
     extend: {
       backgroundImage: {
