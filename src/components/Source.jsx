@@ -1,3 +1,24 @@
+export const colorPalletTab = {
+    'earth': 'bg-tab-earth',
+    'mercury': 'bg-tab-mercury',
+    'venus': 'bg-tab-venus',
+    'mars': 'bg-tab-mars',
+    'jupiter': 'bg-tab-jupiter',
+    'saturn': 'bg-tab-saturn',
+    'uranus': 'bg-tab-uranus',
+    'neptune': 'bg-tab-neptune' 
+}
+export const colorPalletMenu = {
+  'earth': 'bg-earth',
+  'mercury': 'bg-mercury',
+  'venus': 'bg-venus',
+  'mars': 'bg-mars',
+  'jupiter': 'bg-jupiter',
+  'saturn': 'bg-saturn',
+  'uranus': 'bg-uranus',
+  'neptune': 'bg-neptune' 
+}
+
 export const data = [
     {
       "name": "Mercury",
@@ -192,3 +213,5 @@ export const data = [
       }
     }
   ]
+
+  export default data;

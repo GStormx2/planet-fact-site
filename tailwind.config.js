@@ -2,6 +2,10 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screen: {
+      md: '768px',
+      lg: '1440px',
+    },
     fontSize: {
       'planets': ['1.75rem', '2.125rem'],
       'tab-base' : ['0.9375rem', '1.5625rem'],
@@ -50,6 +54,11 @@ module.exports = {
       backgroundImage: {
         'stars': "url('./assets/background-stars.svg')"
       },
+      letterSpacing: {
+        'sm': '-0.09375rem',
+        'md': '0.0625rem',
+        'lg': '0.1625rem'
+      }
     },
   },
   variants: {
