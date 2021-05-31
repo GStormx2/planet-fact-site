@@ -59,6 +59,17 @@ module.exports = {
         'sm': '-0.09375rem',
         'md': '0.0625rem',
         'lg': '0.1625rem'
+      },
+      maxWidth: {
+        'earth'   : '450px',
+        'mercury' : '290px',
+        'venus'   : '400px',
+        'mars'    : '336px',
+        'jupiter' : '582px',
+        'saturn'  : '666px',
+        'uranus'  : '458px',
+        'neptune' : '450px',
+        'pointer' : '163px',
       }
     },
   },

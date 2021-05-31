@@ -1,22 +1,81 @@
+import {default as earth} from '../assets/planet-earth.svg';
+import {default as earth_internal} from '../assets/planet-earth-internal.svg';
+import {default as jupiter} from '../assets/planet-jupiter.svg';
+import {default as jupiter_internal} from '../assets/planet-jupiter-internal.svg';
+import {default as mars} from '../assets/planet-mars.svg';
+import {default as mars_internal} from '../assets/planet-mars-internal.svg';
+import {default as mercury} from '../assets/planet-mercury.svg';
+import {default as mercury_internal} from '../assets/planet-mercury-internal.svg';
+import {default as neptune} from '../assets/planet-neptune.svg';
+import {default as neptune_internal} from '../assets/planet-neptune-internal.svg';
+import {default as saturn} from '../assets/planet-saturn.svg';
+import {default as saturn_internal} from '../assets/planet-saturn-internal.svg';
+import {default as uranus} from '../assets/planet-uranus.svg';
+import {default as uranus_internal} from '../assets/planet-uranus-internal.svg';
+import {default as venus} from '../assets/planet-venus.svg';
+import {default as venus_internal} from '../assets/planet-venus-internal.svg';
+
+import {default as earth_geology} from    '../assets/geology-earth.png';
+import {default as mercury_geology} from  '../assets/geology-mercury.png';
+import {default as venus_geology} from   '../assets/geology-venus.png';
+import {default as mars_geology} from     '../assets/geology-mars.png';
+import {default as jupiter_geology} from '../assets/geology-jupiter.png';
+import {default as saturn_geology} from   '../assets/geology-saturn.png';
+import {default as uranus_geology} from '../assets/geology-uranus.png';
+import {default as neptune_geology} from  '../assets/geology-neptune.png';
+
+export const planetSvgs = {
+  'earth'   : earth,
+  'mercury' : mercury,
+  'venus'   : venus,
+  'mars'    : mars,
+  'jupiter' : jupiter,
+  'saturn'  : saturn,
+  'uranus'  : uranus,
+  'neptune' : neptune,
+}
+
+export const planetInternalSvg = {
+  'earth'   : earth_internal,
+  'mercury' : mercury_internal,
+  'venus'   : venus_internal,
+  'mars'    : mars_internal,
+  'jupiter' : jupiter_internal,
+  'saturn'  : saturn_internal,
+  'uranus'  : uranus_internal,
+  'neptune' : neptune_internal,
+}
+
+export const planetGeologyImage = {
+  'earth'   : earth_geology,
+  'mercury' : mercury_geology,
+  'venus'   : venus_geology,
+  'mars'    : mars_geology,
+  'jupiter' : jupiter_geology,
+  'saturn'  : saturn_geology,
+  'uranus'  : uranus_geology,
+  'neptune' : neptune_geology
+}
+
 export const colorPalletTab = {
-    'earth': 'bg-tab-earth',
-    'mercury': 'bg-tab-mercury',
-    'venus': 'bg-tab-venus',
-    'mars': 'bg-tab-mars',
-    'jupiter': 'bg-tab-jupiter',
-    'saturn': 'bg-tab-saturn',
-    'uranus': 'bg-tab-uranus',
-    'neptune': 'bg-tab-neptune' 
+    'earth'   : 'bg-tab-earth',
+    'mercury' : 'bg-tab-mercury',
+    'venus'   : 'bg-tab-venus',
+    'mars'    : 'bg-tab-mars',
+    'jupiter' : 'bg-tab-jupiter',
+    'saturn'  : 'bg-tab-saturn',
+    'uranus'  : 'bg-tab-uranus',
+    'neptune' : 'bg-tab-neptune' 
 }
 export const colorPalletMenu = {
-  'earth': 'bg-earth',
-  'mercury': 'bg-mercury',
-  'venus': 'bg-venus',
-  'mars': 'bg-mars',
-  'jupiter': 'bg-jupiter',
-  'saturn': 'bg-saturn',
-  'uranus': 'bg-uranus',
-  'neptune': 'bg-neptune' 
+  'earth'   : 'bg-earth',
+  'mercury' : 'bg-mercury',
+  'venus'   : 'bg-venus',
+  'mars'    : 'bg-mars',
+  'jupiter' : 'bg-jupiter',
+  'saturn'  : 'bg-saturn',
+  'uranus'  : 'bg-uranus',
+  'neptune' : 'bg-neptune' 
 }
 
 export const data = [

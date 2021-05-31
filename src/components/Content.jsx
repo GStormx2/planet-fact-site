@@ -1,12 +1,16 @@
 import React from 'react';
 import data from './Source';
-import {default as mercury} from '../assets/planet-mercury.svg'
+import PlanetImage from './PlanetImage';
+import PlanetDescription from './PlanetDescription';
+
+
 const Content = (props) => {
     const info = data.filter(val => val.name === props.selectedPlanet);
-
-    console.log(info);
     return (
-        <img width="50%" src={mercury}/>
+        <div>
+            <PlanetImage selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
+            <PlanetDescription info={info} selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
+        </div>
     );
 }
 export default Content;
