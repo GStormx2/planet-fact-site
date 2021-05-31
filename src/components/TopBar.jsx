@@ -10,7 +10,10 @@ const TopBar = (props) => (
             </button>
         </div>
         <div className="w-screen h-px bg-cgray opacity-20"></div>
-        <Menus selectedPlanet={props.selectedPlanet}/>
+        <Menus 
+            selectedPlanet={props.selectedPlanet} 
+            selectedMenu={props.selectedMenu}
+            setSelectedMenu={props.setSelectedMenu}/>
     </div>
 )
 

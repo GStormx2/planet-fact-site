@@ -29,30 +29,31 @@ module.exports = {
       'antonio': ['Antonio', 'sans-serif'],
       'spartan': ['Spartan', 'sans-serif']
     },
-    colors: {
-      'mercury': '#419EBB',
-      'venus': '#EDA249',
-      'earth': '#6D2ED5',
-      'mars': '#D14C32',
-      'jupiter': '#D83A34',
-      'saturn': '#CD5120',
-      'uranus': '#1EC1A2',
-      'neptune': '#2D68F0',
-      'cgray': '#D8D8D8',
-      'tab-mercury': '#DEF4FC',
-      'tab-venus': '#F7CC7F',
-      'tab-earth': '#545BFE',
-      'tab-mars': '#FF6A45',
-      'tab-jupiter': '#ECAD7A',
-      'tab-saturn': '#FCCB6B',
-      'tab-uranus': '#65F0D5',
-      'tab-neptune': '#497EFA',
-      'cblack': '#070724',
-      'cwhite': '#FFFFFF'
-    },
     extend: {
       backgroundImage: {
-        'stars': "url('./assets/background-stars.svg')"
+        'stars': "url('./assets/background-stars.svg')",
+        'mercury': "url('./assets/planet-mercury.svg')"
+      },
+      colors: {
+        'mercury': '#419EBB',
+        'venus': '#EDA249',
+        'earth': '#6D2ED5',
+        'mars': '#D14C32',
+        'jupiter': '#D83A34',
+        'saturn': '#CD5120',
+        'uranus': '#1EC1A2',
+        'neptune': '#2D68F0',
+        'cgray': '#D8D8D8',
+        'tab-mercury': '#DEF4FC',
+        'tab-venus': '#F7CC7F',
+        'tab-earth': '#545BFE',
+        'tab-mars': '#FF6A45',
+        'tab-jupiter': '#ECAD7A',
+        'tab-saturn': '#FCCB6B',
+        'tab-uranus': '#65F0D5',
+        'tab-neptune': '#497EFA',
+        'cblack': '#070724',
+        'cwhite': '#FFFFFF'
       },
       letterSpacing: {
         'sm': '-0.09375rem',
