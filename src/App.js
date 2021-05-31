@@ -28,7 +28,8 @@ function App() {
         setIsMenuOpen={setIsMenuOpen}/>
       <Content 
         selectedPlanet={selectedPlanet}
-        selectedMenu={selectedMenu}/>
+        selectedMenu={selectedMenu}
+        setSelectedMenu={setSelectedPlanet}/>
       <Statistics 
         selectedPlanet={selectedPlanet}/>
     </div>
