@@ -9,7 +9,7 @@ const Content = (props) => {
     return (
         <div>
             <PlanetImage selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
-            <PlanetDescription info={info} selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
+            <PlanetDescription info={info[0]} selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
         </div>
     );
 }

@@ -1,8 +1,52 @@
 import React from 'react';
-
-const PlanetDescription = (props) => {
-    return (
-        <div></div>
-    );
+import {default as direct} from '../assets/icon-source.svg';
+const PlanetDescription = (props) => {;
+    if (props.selectedMenu === 'overview') {
+        return (
+            <div className="mt-16 w-full text-center ">
+                <h1 className="font-antonio font-medium text-heading-base text-cwhite uppercase">{props.selectedPlanet}</h1>
+                <p className="mt-5 px-7 font-spartan font-normal text-body-base text-cwhite">{props.info.overview.content}</p>
+                <div className="mt-5">
+                    <p className="inline font-spartan text-source-base text-cwhite opacity-50">
+                        Soruce : <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href={props.info.overview.source}>
+                            Wikipedia</a>
+                    </p>
+                    <img className="ml-1 mt-1 inline" width="3.5%" src={direct}/>    
+                </div>
+            </div>
+        );
+    }
+    else if (props.selectedMenu === 'structure') {
+        return (
+            <div className="mt-16 w-full text-center ">
+                <h1 className="font-antonio font-medium text-heading-base text-cwhite uppercase">{props.selectedPlanet}</h1>
+                <p className="mt-5 px-7 font-spartan font-normal text-body-base text-cwhite">{props.info.structure.content}</p>
+                <div className="mt-5">
+                    <p className="inline font-spartan text-source-base text-cwhite opacity-50">
+                        Soruce : <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href={props.info.structure.source}>
+                            Wikipedia</a>
+                    </p>
+                    <img className="ml-1 mt-1 inline" width="3.5%" src={direct}/>    
+                </div>
+            </div>
+        );
+    }
+    else if (props.selectedMenu === 'surface') {
+        return (
+            <div className="mt-16 w-full text-center ">
+                <h1 className="font-antonio font-medium text-heading-base text-cwhite uppercase">{props.selectedPlanet}</h1>
+                <p className="mt-5 px-7 font-spartan font-normal text-body-base text-cwhite">{props.info.geology.content}</p>
+                <div className="mt-5">
+                    <p className="inline font-spartan text-source-base text-cwhite opacity-50">
+                        Soruce : <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href={props.info.geology.source}>
+                            Wikipedia</a>
+                    </p>
+                    <img className="ml-1 mt-1 inline" width="3.5%" src={direct}/>    
+                </div>
+            </div>
+        );
+    }
+    
+    
 }
 export default PlanetDescription;

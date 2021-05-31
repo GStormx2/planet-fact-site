@@ -24,6 +24,8 @@ import {default as saturn_geology} from   '../assets/geology-saturn.png';
 import {default as uranus_geology} from '../assets/geology-uranus.png';
 import {default as neptune_geology} from  '../assets/geology-neptune.png';
 
+export const menus = ['overview', 'structure', 'surface'];
+
 export const planetSvgs = {
   'earth'   : earth,
   'mercury' : mercury,

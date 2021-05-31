@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import TopBar from './components/TopBar';
 import data from './components/Source';
 import Content from './components/Content'
+import Statistics from './components/Statistics';
 
 function App() {
   const planets = data.map(val => val.name);
@@ -26,6 +27,8 @@ function App() {
       <Content 
         selectedPlanet={selectedPlanet}
         selectedMenu={selectedMenu}/>
+      <Statistics 
+        selectedPlanet={selectedPlanet}/>
     </div>
   );
 }
