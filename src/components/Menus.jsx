@@ -4,7 +4,7 @@ import {menus} from './Source';
 
 const Menus = (props) => {
     return (
-        <div>
+        <div className="md:hidden">
             <div className="flex justify-between px-5">
                 {menus.map(val => <MenuItems key={val} name={val} selectedPlanet={props.selectedPlanet} selectedMenu={props.selectedMenu} setSelectedMenu={props.setSelectedMenu}/>)}
             </div>

@@ -11,7 +11,7 @@ const PlanetDescription = (props) => {;
                         Soruce : <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href={props.info.overview.source}>
                             Wikipedia</a>
                     </p>
-                    <img className="ml-1 mt-1 inline" width="3.5%" src={direct}/>    
+                    <img className="ml-1 mt-1 inline max-w-chevron" width="3.5%" src={direct} alt=""/>    
                 </div>
             </div>
         );
@@ -26,7 +26,7 @@ const PlanetDescription = (props) => {;
                         Soruce : <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href={props.info.structure.source}>
                             Wikipedia</a>
                     </p>
-                    <img className="ml-1 mt-1 inline" width="3.5%" src={direct}/>    
+                    <img className="ml-1 mt-1 inline max-w-chevron" width="3.5%" src={direct} alt=""/>    
                 </div>
             </div>
         );
@@ -41,7 +41,7 @@ const PlanetDescription = (props) => {;
                         Soruce : <a className="underline font-bold" target="_blank" rel="noopener noreferrer" href={props.info.geology.source}>
                             Wikipedia</a>
                     </p>
-                    <img className="ml-1 mt-1 inline" width="3.5%" src={direct}/>    
+                    <img className="ml-1 mt-1 inline max-w-chevron" width="3.5%" src={direct} alt=""/>    
                 </div>
             </div>
         );

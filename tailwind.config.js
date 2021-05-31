@@ -70,6 +70,7 @@ module.exports = {
         'uranus'  : '458px',
         'neptune' : '450px',
         'pointer' : '163px',
+        'chevron' : '12px'
       }
     },
   },

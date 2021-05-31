@@ -18,7 +18,9 @@ function App() {
         isMenuOpen={isMenuOpen} 
         selectedPlanet={selectedPlanet}
         selectedMenu={selectedMenu}
-        setSelectedMenu={setSelectedMenu}/>
+        setSelectedMenu={setSelectedMenu}
+        planets={planets}
+        setSelectedPlanet={setSelectedPlanet}/>
       <NavBar 
         planets={planets} 
         isMenuOpen={isMenuOpen} 
