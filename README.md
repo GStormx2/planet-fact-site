@@ -58,9 +58,9 @@ Users should be able to:
 I'm just getting the hang of frontend web development. There are so many more things to learn and build. Its exiciting!
 Things that I want to learn as I build more projects:
 
-:beginner: Learn the other Hooks and sate management libraries
-:beginner: I'm horrible with images and svgs so need to work more on that XD
-:beginner: NextJS and data fetching through APIs
+:beginner: Learn the other Hooks and sate management libraries\
+:beginner: I'm horrible with images and svgs so need to work more on that XD\
+:beginner: NextJS and data fetching through APIs\
 :beginner: Design patterns and good practices!
 
 ### Useful resources
