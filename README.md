@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Frontend Mentor - Planets fact site solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `yarn start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The challenge
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Users should be able to:
 
-### `yarn test`
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `yarn build`
+![](./screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/planets-fact-site-with-create-react-app-and-tailwindcss-aoLGeAHF5)
+- Live Site URL: [Vercel App](https://planet-fact-site.vercel.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `yarn eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Create React App](https://reactjs.org/) - JS library
+- Tailwind CSS
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:heavy_check_mark: Basics and some advanced frontend topics. I'm still a beginner but learning more and growing each day! :muscle:\
+:heavy_check_mark: How useState Hook works and how to implement it to toggle elements or switch between different images\
+:heavy_check_mark: Breaking down the app into smaller components, each doing their own thing\
+:heavy_check_mark: Passing State information between components using Props\
+:heavy_check_mark: Styling with TailwindCSS and making the app more responsive for different screen sizes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Continued development
 
-## Learn More
+I'm just getting the hang of frontend web development. There are so many more things to learn and build. Its exiciting!
+Things that I want to learn as I build more projects:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+:beginner: Learn the other Hooks and sate management libraries
+:beginner: I'm horrible with images and svgs so need to work more on that XD
+:beginner: NextJS and data fetching through APIs
+:beginner: Design patterns and good practices!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
 
-### Code Splitting
+- [Tailwind Docs](https://tailwindcss.com/docs) - Tailwind official documentation. Best place to learn tailwind
+- [Full Stack Open](https://fullstackopen.com/en/) - Best place to learn React as a beginner. Its Free!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+- Frontend Mentor - [@GStormx2](https://www.frontendmentor.io/profile/GStormx2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
