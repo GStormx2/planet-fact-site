@@ -10,7 +10,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedPlanet, setSelectedPlanet] = useState('Earth');
   const [selectedMenu, setSelectedMenu] = useState('overview');
-
+  console.log(selectedPlanet, selectedMenu)
   return (
     <div>
       <TopBar 
@@ -29,7 +29,7 @@ function App() {
       <Content 
         selectedPlanet={selectedPlanet}
         selectedMenu={selectedMenu}
-        setSelectedMenu={setSelectedPlanet}/>
+        setSelectedMenu={setSelectedMenu}/>
       <Statistics 
         selectedPlanet={selectedPlanet}/>
     </div>

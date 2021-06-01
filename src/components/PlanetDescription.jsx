@@ -3,8 +3,8 @@ import {default as direct} from '../assets/icon-source.svg';
 const PlanetDescription = (props) => {;
     if (props.selectedMenu === 'overview') {
         return (
-            <div className="mt-16 w-full text-center md:text-left">
-                <h1 className="font-antonio font-medium text-heading-base text-cwhite uppercase">{props.selectedPlanet}</h1>
+            <div className="mt-16 md:m-0 md:pr-12 w-full text-center md:flex-1 md:text-left">
+                <h1 className="font-antonio font-medium text-heading-base md:text-heading-md text-cwhite uppercase">{props.selectedPlanet}</h1>
                 <p className="mt-5 px-7 md:p-0 font-spartan font-normal text-body-base text-cwhite">{props.info.overview.content}</p>
                 <div className="mt-5">
                     <p className="inline font-spartan text-source-base text-cwhite opacity-50">
@@ -18,8 +18,8 @@ const PlanetDescription = (props) => {;
     }
     else if (props.selectedMenu === 'structure') {
         return (
-            <div className="mt-16 w-full text-center md:text-left">
-                <h1 className="font-antonio font-medium text-heading-base text-cwhite uppercase">{props.selectedPlanet}</h1>
+            <div className="mt-16 md:m-0 md:pr-12 w-full text-center md:text-left">
+                <h1 className="font-antonio font-medium text-heading-base md:text-heading-md text-cwhite uppercase">{props.selectedPlanet}</h1>
                 <p className="mt-5 px-7 md:p-0 font-spartan font-normal text-body-base text-cwhite">{props.info.structure.content}</p>
                 <div className="mt-5">
                     <p className="inline font-spartan text-source-base text-cwhite opacity-50">
@@ -33,8 +33,8 @@ const PlanetDescription = (props) => {;
     }
     else if (props.selectedMenu === 'surface') {
         return (
-            <div className="mt-16 w-full text-center md:text-left">
-                <h1 className="font-antonio font-medium text-heading-base text-cwhite uppercase">{props.selectedPlanet}</h1>
+            <div className="mt-16 md:m-0 md:pr-12 w-full text-center md:text-left">
+                <h1 className="font-antonio font-medium text-heading-base md:text-heading-md text-cwhite uppercase">{props.selectedPlanet}</h1>
                 <p className="mt-5 px-7 md:p-0 font-spartan font-normal text-body-base text-cwhite">{props.info.geology.content}</p>
                 <div className="mt-5">
                     <p className="inline font-spartan text-source-base text-cwhite opacity-50">

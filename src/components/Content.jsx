@@ -10,7 +10,7 @@ const Content = (props) => {
     return (
         <div>
             <PlanetImage selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
-            <div className="md:flex">
+            <div className="md:px-10 md:flex md:items-center md:justify-center">
                 <PlanetDescription info={info[0]} selectedMenu={props.selectedMenu} selectedPlanet={props.selectedPlanet}/>
                 <MediumMenu 
                     selectedPlanet={props.selectedPlanet}

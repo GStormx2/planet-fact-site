@@ -2,7 +2,6 @@ import React from 'react';
 import TopNavigationItems from './TopNavigationItems';
 
 const TopNavigation = (props) => {
-    console.log("in topnavitem", props.planets);
     return (
         <div className="hidden md:block">
             <div className="px-5 w-full flex flex-row justify-between items-center">
