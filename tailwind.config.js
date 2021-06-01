@@ -5,7 +5,7 @@ module.exports = {
     screen: {
       md: '768px',
       lg: '1024px',
-      xl: '1280px'
+      xl: '1440px'
     },
     fontSize: {
       'planets': ['1.75rem', '2.125rem'],
@@ -33,7 +33,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         'stars': "url('./assets/background-stars.svg')",
-        'mercury': "url('./assets/planet-mercury.svg')"
       },
       colors: {
         'mercury': '#419EBB',
@@ -72,6 +71,10 @@ module.exports = {
         'neptune' : '450px',
         'pointer' : '163px',
         'chevron' : '12px'
+      },
+      width: {
+        'c28' : '28rem',
+        'c30' : '30rem',
       }
     },
   },

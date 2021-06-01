@@ -29,14 +29,14 @@ const PlanetImage = (props) => {
     
     if (props.selectedMenu === 'overview') {
         return (
-            <div className="mt-16 md:mt-40 md:mb-40">
+            <div className="mt-16 md:mt-40 md:mb-40 xl:w-full">
                 <img className={`mx-auto ${planetMaxSize[props.selectedPlanet.toLowerCase()]}`} width={planetSize[props.selectedPlanet.toLowerCase()]} src={svg} alt={`${props.selectedPlanet}`}/>
             </div>
         );
     }
     else if (props.selectedMenu === 'structure') {
         return (
-            <div className="mt-16 md:mt-40 md:mb-40">
+            <div className="mt-16 md:mt-40 md:mb-40 xl:w-full">
                 <img className={`mx-auto ${planetMaxSize[props.selectedPlanet.toLowerCase()]}`} width={planetSize[props.selectedPlanet.toLowerCase()]} src={internal} alt={`${props.selectedPlanet} internal`}/>
             </div>
         )
