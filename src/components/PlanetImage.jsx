@@ -43,7 +43,7 @@ const PlanetImage = (props) => {
     }
     else if (props.selectedMenu === 'surface') {
         return (
-            <div className="relative w-full mt-16 md:mt-40 md:mb-40">
+            <div className="relative w-full mb-28 mt-16 md:mt-40 md:mb-40">
                 <img className={`mx-auto ${planetMaxSize[props.selectedPlanet.toLowerCase()]}`} width={planetSize[props.selectedPlanet.toLowerCase()]} src={svg} alt={`${props.selectedPlanet}`}/>
                 <img className="absolute max-w-pointer left-1/2 transform -translate-x-1/2 -translate-y-1/2" width="25%" src={geology}  alt={`${props.selectedPlanet} geology`}/>
             </div>

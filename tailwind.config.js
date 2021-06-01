@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     screen: {
       md: '768px',
-      lg: '1440px',
+      lg: '1024px',
+      xl: '1280px'
     },
     fontSize: {
       'planets': ['1.75rem', '2.125rem'],

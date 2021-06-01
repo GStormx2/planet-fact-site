@@ -4,7 +4,7 @@ import MediumMenuItems from './MediumMenuItems';
 
 const MediumMenu = (props) => {
     return (
-        <div className="hidden md:flex md:flex-col md:items-center">
+        <div className="hidden md:flex md:flex-col md:items-center lg:mt-10">
             {menus.map((val, index) => 
                 <MediumMenuItems 
                     key={val} 
