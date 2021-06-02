@@ -36,7 +36,7 @@ const PlanetImage = (props) => {
         return (
             <div className="relative w-full mb-28 mt-16 md:mt-20 md:mb-32 xl:m-5">
                 <img className={`${props.selectedPlanet.toLowerCase()} mx-auto ${planetMaxSize[props.selectedPlanet.toLowerCase()]}`} src={svg} alt={`${props.selectedPlanet}`}/>
-                <img className="pointer absolute max-w-pointer left-1/2 transform -translate-x-1/2 -translate-y-1/2" src={geology}  alt={`${props.selectedPlanet} geology`}/>
+                <img className="pointer absolute max-w-pointer top-3/4 mt-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2" src={geology}  alt={`${props.selectedPlanet} geology`}/>
             </div>
         );
     }
