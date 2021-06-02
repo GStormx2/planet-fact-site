@@ -13,33 +13,33 @@
         @apply rounded-full;
     }
     .earth {
-        width: 50%,
+        width: 50%;
     }
     .mercury {
-        width: 30%,
+        width: 30%;
     }
     .venus {
-        width: 45%
+        width: 45%;
     }
     .mars {
-        width: 35%,
+        width: 35%;
     }
     .jupiter {
-        width: 65%,
+        width: 65%;
     }
     .saturn {
-        width: 65%,
+        width: 65%;
     }
     .uranus {
-        width: 55%,
+        width: 55%;
     }
     .neptune {
-        width: 50%,
+        width: 50%;
     }
     .pointer {
-        width: 25%
+        width: 25%;
     }
     .chevron {
-        width: 3.5%
+        width: 3.5%;
     }
 }
