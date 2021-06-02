@@ -12,4 +12,31 @@
         width: 20px;
         @apply rounded-full;
     }
+    .earth {
+        width: 50%,
+    }
+    .mercury {
+        width: 30%,
+    }
+    .venus {
+        width: 45%
+    }
+    .mars {
+        width: 35%,
+    }
+    .jupiter {
+        width: 65%,
+    }
+    .saturn {
+        width: 65%,
+    }
+    .uranus {
+        width: 55%,
+    }
+    .neptune {
+        width: 50%,
+    }
+    .pointer {
+        width: 25%
+    }
 }
