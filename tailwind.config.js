@@ -69,11 +69,11 @@ module.exports = {
         'mercury' : '290px',
         'venus'   : '400px',
         'mars'    : '336px',
-        'jupiter' : '582px',
-        'saturn'  : '666px',
+        'jupiter' : '468px',
+        'saturn'  : '468px',
         'uranus'  : '458px',
         'neptune' : '450px',
-        'pointer' : '163px',
+        'pointer' : '140px',
         'chevron' : '12px'
       },
       width: {
@@ -83,7 +83,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      cursor: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }
