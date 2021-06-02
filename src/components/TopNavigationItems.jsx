@@ -2,17 +2,6 @@ import React from 'react';
 import {colorPalletMenu} from './Source';
 
 const TopNavigationItems = (props) => {
-    console.log(props.name, props.selectedPlanet)
-    const hoverBg = {
-        'earth'   : 'bg-earth',
-        'mercury' : 'bg-mercury',
-        'venus'   : 'bg-venus',
-        'mars'    : 'bg-mars',
-        'jupiter' : 'bg-jupiter',
-        'saturn'  : 'bg-saturn',
-        'uranus'  : 'bg-uranus',
-        'neptune' : 'bg-neptune' 
-    }
     if (props.name === 'Earth'){
         return (
             <div className={`xl:mr-5 h-full flex-1 flex flex-col justify-between items-center focus:outline-none}`} 
